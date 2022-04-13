@@ -1,0 +1,26 @@
+body {
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body>h1 {
+    color:brown;
+    text-align: center;
+    background-color: midnightblue;
+    padding: 50px;
+}
+
+body>div>p {
+    display: flex; 
+    justify-content: flex-end;
+}
+
+body>footer {
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
